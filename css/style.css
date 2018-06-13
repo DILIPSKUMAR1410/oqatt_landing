@@ -1,0 +1,188 @@
+
+ body { 
+ overflow-x: hidden; }
+
+
+ /*body {
+    margin: 0;
+    padding: 0;
+}*/
+
+.navbar.navbar-default {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.align{
+  margin-left: 200px;
+}
+
+.head{
+    position: absolute;
+    top: 10px;
+    font-size: 21px;
+    margin-left: 100px;
+  color: #ffffff;
+/*  text-transform: uppercase;
+*/    font-family: Helvetica, sans-serif;
+    width: 100%;
+
+}
+.title {
+    position: absolute;
+    top: 380px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+  color: #ffffff;
+/*  text-transform: uppercase;
+*/    font-family: Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+.title-content{
+padding-left: 220px;
+padding-right: 220px;
+font-size: 20px;
+display: table;
+
+}
+
+.header{
+  position: absolute;
+  top: 0px;
+  left: 400px;
+  font-size: 40px;
+
+}
+
+/*.title{
+  text-align: center;
+  position: inline-block;
+  margin-top: 380px;
+}*/
+  /*margin-left:auto;
+  margin-right: auto;*/
+  /*position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+
+/*}*/
+
+/*.title-content{
+  text-align: center;
+  height: 600px;
+   position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 50px;
+  color: #e2e2e2;
+  text-transform: uppercase;
+    font-family: Arial, sans-serif;
+  
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}*/
+.bold{
+  font-weight: bold;
+}
+.second-model{
+  height: 700px;
+}
+
+.values{
+  height: 700px;
+  margin-top: 300px;
+}
+.values-margin{
+/*  background-color:#56356d;
+*/  padding: 76px;
+  text-align: center;
+}
+
+
+@media (min-width: 350) and (max-width: 768) { ... }
+
+.third-model{
+  height: 350px;
+}
+.first-hr{
+    display: block;
+    height: 20px;
+    border: 0;
+    border-top: 5px solid #e95095;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.second-hr{
+    display: block;
+    height: 20px;
+    border: 0;
+    border-top: 5px solid #7049ba;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.third-hr{
+    display: block;
+    height: 20px;
+    border: 0;
+    border-top: 5px solid #1e73be;
+    margin: 1em 0;
+    padding: 0; 
+}
+.text-style{
+  font-size: 17px;
+}
+
+.third-row{
+  height: 100px;
+}
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: #ffffff;
+   text-align: center;
+   background-color: #2b323f;
+   font-size: 18px;
+   min-height: 150px;
+   padding: 100px 0;
+   font-weight: bold
+}
+
+/*html, body {
+  margin: 0; padding: 0;
+}*/
+.hero-bkg-animated {
+  background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  height: 1000px;
+  padding-top: 120px;
+  box-sizing: border-box;
+  -webkit-animation: slide 20s linear infinite;
+}
+
+.hero-bkg-animated h1 {
+  font-family: sans-serif;
+}
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}
