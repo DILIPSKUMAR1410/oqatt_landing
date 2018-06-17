@@ -1,6 +1,8 @@
 
  body { 
- overflow-x: hidden; }
+ overflow-x: hidden;
+     font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+} 
 
 
  /*body {
@@ -31,30 +33,66 @@
     margin-left: 100px;
   color: #ffffff;
 /*  text-transform: uppercase;
-*/    font-family: Helvetica, sans-serif;
-    width: 100%;
+*/    width: 100%;
 
+}
+
+.button {
+  position: absolute;
+   top: 10px;
+    left: 90%;
+    transform: translateX(-50%);
+    background-color: #e74e93;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+     border: 2px double #3e1c56;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 12px 2px;
+    cursor: pointer;
+    width: 12%;
+    font-weight: bold;
 }
 .title {
     position: absolute;
-    top: 380px;
+    top: 340px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 30px;
   color: #ffffff;
 /*  text-transform: uppercase;
-*/    font-family: Arial, sans-serif;
+*/  
     text-align: center;
     width: 100%;
 }
 
 .title-content{
-padding-left: 220px;
-padding-right: 220px;
-font-size: 20px;
+/*padding-left: 220px;
+padding-right: 220px;*/
+ color: #ffffff;
+position: absolute;
+    top: 430px;
+    left: 50%;
+    transform: translateX(-50%);
+font-size: 17px;
+text-align: center;
+/*display: table;
+*/
+}
+
+@media (min-width: 350) and (max-width: 768) {
+.title-content{
+/*padding-left: 20px;
+padding-right:20px;*/
+font-size: 80px;
 display: table;
 
 }
+ }
+
 
 .header{
   position: absolute;
@@ -97,6 +135,7 @@ display: table;
 }*/
 .bold{
   font-weight: bold;
+  font-size: 17px;
 }
 .second-model{
   height: 700px;
@@ -113,7 +152,6 @@ display: table;
 }
 
 
-@media (min-width: 350) and (max-width: 768) { ... }
 
 .third-model{
   height: 350px;
